@@ -14,16 +14,19 @@ function askHungry() {
     } else  {
         alert('come back soon!');
     }
-        
-      
-}
 
-for (let times =50; times > 0; times = times -5) {
+function likePizza(){ 
+    let likePizza = confirm('Do you like Pizza?');
+    for (let times == 10) {
+     while (!likePizza) {
+        likePizza = confirm('Do you like pizza?');
+     }
+      
 }
 
 function askCats() {
     let cats = prompt ('How many cats do you have?');
-    for (let i = 0; i == cats; i++) {
+    for (let i = 0; i < cats; i++) {
        let image = document.createElement('img')
        image.src = 'http://placekitten.com/200/300';
        document.getElementById('cats').appendChild(image);
