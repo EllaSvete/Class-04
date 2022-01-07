@@ -14,15 +14,8 @@ function askHungry() {
     } else  {
         alert('come back soon!');
     }
-
-function likePizza(){ 
-    let likePizza = confirm('Do you like Pizza?');
-    for (let times == 10) {
-     while (!likePizza) {
-        likePizza = confirm('Do you like pizza?');
-     }
-      
 }
+    
 
 function askCats() {
     let cats = prompt ('How many cats do you have?');
