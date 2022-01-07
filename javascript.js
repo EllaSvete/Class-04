@@ -15,7 +15,13 @@ function askHungry() {
         alert('come back soon!');
     }
 }
-    
+
+function likePizza() { 
+    let likePizza = confirm ('Do you like Pizza?');
+     while (!likePizza) {
+        likePizza = confirm ('Do you like pizza?');
+     }     
+}
 
 function askCats() {
     let cats = prompt ('How many cats do you have?');
@@ -33,6 +39,4 @@ function askCats() {
 
 askQuestion();
 askCats();
-
-
-
+likePizza();
